@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CheckoutTests {
-
     @Test
     public void oneA() {
         Checkout checkout = new Checkout();
@@ -32,7 +31,6 @@ class CheckoutTests {
         checkout.scan("A");
         assertEquals(130, checkout.total());
     }
-
 
     @Test
     public void sixA() {
