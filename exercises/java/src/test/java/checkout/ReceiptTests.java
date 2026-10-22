@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ReceiptTests {
-
     @Test
     public void singleItem() {
         Checkout checkout = new Checkout();
